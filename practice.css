@@ -1,0 +1,65 @@
+.intro {
+	text-align: center;
+	padding-top: 18%;
+	color: white;
+    text-shadow: 1px 1px black;
+}
+
+.navbar-inverse {
+	margin-top: 5px;
+	background: #323335;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: white;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
+.navbar-inverse .navbar-brand {
+	color: white;
+}
+
+.container {
+	border-radius: 5px;
+}
+
+body {
+background-image: url(background.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 100%;
+}
+
+html {
+	height: 100%;
+}
+
+#aboutMe {
+	color: white;
+	text-shadow: 1px 1px black;
+}
+
+.thumbnail {
+	padding: 0px;
+	border: 0px;
+	margin: 0px;
+	border: 2px solid black !important;
+    background: transparent !important;
+    box-shadow:none !important;
+    border-radius: 3px;
+    min-width: 345px; width: 345px;
+}
+
+.thumbnail img { 
+	min-height:400px; height: 400px;
+	padding: 0px;
+	margin: 0px;
+}
+
+#italic {
+	font-style: italic;
+}
